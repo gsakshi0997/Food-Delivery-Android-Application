@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Food Delivery</string>
+    <string-array name="location">
+        <item>Select Nearest Outlet</item>
+        <item>Bandra</item>
+        <item>Bhayander</item>
+        <item>Churchgate</item>
+        <item>Santacruz</item>
+    </string-array>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu_pizza"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bgmenu2"
+    tools:context="com.sakshigupta.fooddelivery.menu_pizza">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spnsize"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:text="Toppings(No additional charges)" />
+
+
+    <CheckBox
+        android:id="@+id/cbcap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="27dp"
+        android:text="Capsicum" />
+
+    <Spinner
+        android:id="@+id/spnsize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:id="@+id/tView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="PIZZA"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/cbCorn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Corn"
+        android:layout_alignBaseline="@+id/cbcap"
+        android:layout_alignBottom="@+id/cbcap"
+        android:layout_alignLeft="@+id/tView"
+        android:layout_alignStart="@+id/tView"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp" />
+
+    <CheckBox
+        android:id="@+id/cbOnion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Onion"
+        android:layout_alignBaseline="@+id/cbMush"
+        android:layout_alignBottom="@+id/cbMush"
+        android:layout_alignLeft="@+id/cbcottage"
+        android:layout_alignStart="@+id/cbcottage" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Skip"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignLeft="@+id/cbMush"
+        android:layout_alignStart="@+id/cbMush" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="85dp"
+        android:background="#FFFFFF"
+        android:text="Add to Cart"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/cbcottage"
+        android:layout_alignEnd="@+id/cbcottage" />
+
+    <CheckBox
+        android:id="@+id/cbMush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:text="Mushroom"
+        android:layout_below="@+id/cbTomato"
+        android:layout_alignLeft="@+id/cbTomato"
+        android:layout_alignStart="@+id/cbTomato" />
+
+    <CheckBox
+        android:id="@+id/cbcottage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cottage Cheese"
+        android:layout_alignBaseline="@+id/cbTomato"
+        android:layout_alignBottom="@+id/cbTomato"
+        android:layout_alignLeft="@+id/cbCorn"
+        android:layout_alignStart="@+id/cbCorn" />
+
+    <CheckBox
+        android:id="@+id/cbTomato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Tomato"
+        android:layout_below="@+id/cbcap"
+        android:layout_alignLeft="@+id/cbcap"
+        android:layout_alignStart="@+id/cbcap" />
+
+</RelativeLayout>

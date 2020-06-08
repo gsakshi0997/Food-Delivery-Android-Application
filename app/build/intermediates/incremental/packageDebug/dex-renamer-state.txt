@@ -1,0 +1,7 @@
+#Thu Apr 12 01:14:43 IST 2018
+base.0=E\:\\android\\FoodDelivery\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_eae25663df5faead93cdad2b469c4efa3aeefb04
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\android\\FoodDelivery\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_149613cf6c8f5c8f793eaad96de2817869e847cc\\classes.dex
+base.1=E\:\\android\\FoodDelivery\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_149613cf6c8f5c8f793eaad96de2817869e847cc
+file.0=E\:\\android\\FoodDelivery\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_eae25663df5faead93cdad2b469c4efa3aeefb04\\classes.dex
